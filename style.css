@@ -1,0 +1,81 @@
+.Main-title{
+    text-align: center;
+}
+.first{
+    width:30%;
+    border: none;
+    height: 5px;
+    /* Set the hr color */
+    
+    background-color: #333;
+}
+.wordle{
+    display: flex;
+    flex-direction: column;
+    width:fit-content;
+    margin: auto;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.letter{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    text-align: center;
+    border-style: solid;
+    border-color: #333;
+    font-size: 1.875em;
+}
+.anim{
+        animation: colorRotate 6s linear 0s infinite;
+}
+
+@keyframes colorRotate {
+    from {
+      color: #6666ff;
+    }
+    10% {
+      color: #0099ff;
+    }
+    50% {
+      color: #00ff00;
+    }
+    75% {
+      color: #ff3399;
+    }
+    100% {
+      color: #6666ff;
+    }
+  }
+.lost{
+    color: #ff3399;
+}
+.green{
+    background-color: rgb(16, 133, 16);
+    color: white;
+}
+
+.yellow{
+    background-color: rgb(195, 139, 7);
+    color: white;
+}
+.footer {
+    
+    bottom: 0;
+    margin: 0%;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #3C6255;
+    color: white;
+    text-align: center;
+ }
+ .footer p{
+    margin: 0%;
+ }
+ body{
+    margin: 0%;
+ }
